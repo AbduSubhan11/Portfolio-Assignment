@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #242424;
+}
+nav {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    padding: 5px; 
+}
+nav h1 {
+    color: #04eeff;
+    font-size: 3vw;
+}
+#heroes{
+    display: flex ;
+}
+#leftHeroes{
+    width: 70%;
+    padding-top: 300px;
+    padding-left: 50px;
+}
+#leftHeroes h1{
+    color: white;
+}
+#skillHeading {
+    color: #04eeff;
+    font-size: 2vw;
+}
+#leftHeroes h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#rightHeroes{
+    width: 50%;
+    background-color: aqua;
+}
+#rightHeroes img{
+    width: 100%;
+    height: 100%;
+}
+#skills{
+    margin-top: 10%;
+}
+#skillHead{
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+}
+#skillImgDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    border-radius: 50%;
+    padding: 150px;
+}
+#skillImgDiv img{
+    width: 10vw;
+}
+#about{
+    display: flex;
+    align-items: center;
+}
+#aboutLeft{
+    width: 40%;
+}
+#aboutLeft img{
+    width: 100%;
+}
+#aboutRight{
+    width: 60%;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#AboutHead{
+    font-size: 4vw;
+    color: white;
+}
+#MeHeading{
+    color: #04eeff;
+}
+#Front-EndHeading{
+    font-size: 2vw;
+    color: white;
+    padding-top: 20px;
+}
+#aboutPara{
+    font-size: 25px;
+    color: white;
+}
+#services{
+    margin-top: 10%;
+}
+#services h1{
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+}
+#serviceCardDiv{
+    display: flex;
+    gap: 10px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#serviceCardDiv p{
+    color: black;
+}
+#firstDiv{
+    max-width: 24rem;
+    padding: 20px;
+    background-color: #03d4e0;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#firstDiv h5{
+    font-size: 25px;
+    text-align: center;
+}
+#firstDiv p{
+    font-size: 20px;
+}
+#firstDiv:hover {
+    transform: scale(1.05); 
+}
+#secondDiv{
+    max-width: 24rem;
+    padding: 20px;
+    background-color: #03d4e0;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#secondDiv h5{
+    font-size: 25px;
+    text-align: center;
+}
+#secondDiv p{
+    font-size: 20px;
+}
+#secondDiv:hover {
+    transform: scale(1.05); 
+}
+#thirdDiv{
+    max-width: 24rem;
+    padding: 20px;
+    background-color: #03d4e0;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#thirdDiv h5{
+    font-size: 25px;
+    text-align: center;
+}
+#thirdDiv p{
+    font-size: 20px;
+}
+#thirdDiv:hover {
+    transform: scale(1.05); 
+}
+#contactHead {
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+}
+#firsContactDiv{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 5%;
+}
+#atServiceHead{
+    color: #04eeff;
+    margin-top: 20px;
+}
+#contact{
+    margin-top: 10%;
+}
+#callInfo{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+#callInfo1{
+    text-align: center;
+}
+#callInfo1 svg{
+    color: #04eeff;
+    width: 50px;
+}
+#callInfo1 p{
+    color: white;
+    font-size: 20px;
+}
+#callInfo2{
+    text-align: center;
+}
+#callInfo2 svg{
+    color: #04eeff;
+    width: 60px;
+    height: 50px;
+}
+#callInfo2 p{
+    color: white;
+    font-size: 20px;
+}
+#callInfo3{
+    text-align: center;
+}
+#callInfo3 svg{
+    color: #04eeff;
+    width: 50px;
+}
+#callInfo3 p{
+    color: white;
+    font-size: 20px;
+}
+#sendmeEmail{
+    margin-top: 5%;
+}
+#sendmeEmail h2,p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#formInputs{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    margin-top: 5%;
+}
+form input{
+    border-radius: 10px;
+    padding-left: 5px;
+    height: 50px;
+    width: 50%;
+    outline: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#formTextArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#formTextArea textarea{
+    border-radius: 10px;
+    padding: 5px;
+    height: 100px;
+    width: 50%;
+    outline: none;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+#submitBtnDiv{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#submitBtnDiv button{
+    background-color: #04eeff;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
+
+@media  (max-width: 600px) {
+    nav h1 {
+        font-size: 6vw; /* Adjust text size for smaller screens */
+    }
+    #leftHeroes {
+        width: 100%; /* Full width for mobile */
+        padding-top: 150px;
+        padding-left: 20px;
+    }
+    #heroes{
+        flex-direction: column;
+    }
+    #leftHeroes h2{
+        font-size: 4vw;
+    }
+    #rightHeroes {
+        width: 100%;
+        background-color: transparent;
+    }
+    #skillHeading{
+        font-size: 6vw;
+    } 
+    #skillImgDiv {
+        padding: 50px; 
+    }
+    #about {
+        flex-direction: column;
+        padding: 20px;
+    }
+    #aboutLeft img{
+        display: none;
+    }
+    #AboutHead{
+        font-size: 8vw;
+    }
+    #Front-EndHeading{
+        font-size: 6vw;
+    }
+    #aboutLeft, #aboutRight {
+        width: 100%;
+    }
+    #serviceCardDiv{
+        flex-direction: column;
+    }
+    #serviceCardDiv div{
+        width: 80%;
+    }
+    #contactHead,#services h1{
+        font-size: 7vw;
+    }
+    #firsContactDiv{
+        margin-top: 15%;
+    }
+    #callInfo {
+        grid-template-columns: 1fr; 
+        gap: 70px;
+        margin-top: 10%;
+    }
+    #sendmeEmail{
+        margin-top: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form input, #formTextArea textarea {
+        width: 90%; /* Make inputs full width on mobile */
+    }
+}
